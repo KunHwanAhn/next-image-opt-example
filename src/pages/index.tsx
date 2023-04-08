@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>Image Opt</title>
       </Head>
-      <h1 className={style.title}>Next.js 이미지 최적화</h1>
+      <h1 className={style.title}>Next.js Image Optimization</h1>
     </>
   );
 }
