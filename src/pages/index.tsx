@@ -1,15 +1,15 @@
 import React from 'react';
 import Head from 'next/head';
 
-import style from './Home.module.scss';
+import PageTitle from '@/components/PageTitle';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Image Opt</title>
+        <title>Home</title>
       </Head>
-      <h1 className={style.title}>Next.js Image Optimization</h1>
+      <PageTitle title="Next.js Image Optimization" />
     </>
   );
 }
