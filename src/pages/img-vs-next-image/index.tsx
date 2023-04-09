@@ -2,12 +2,14 @@ import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 
+import { calcHeight } from '@/utils';
+
 import PageTitle from '@/components/PageTitle';
 import ImageCard from '@/components/ImageCard';
 
 export default function ImgVsNextImage() {
   const width = 400;
-  const height = width * (9 / 16);
+  const height = calcHeight(width);
 
   return (
     <>
