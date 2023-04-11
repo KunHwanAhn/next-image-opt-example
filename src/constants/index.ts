@@ -2,6 +2,7 @@ export const PATH = {
   HOME: '/',
   IMG_VS_NEXT_IMAGE: '/img-vs-next-image',
   TYPE_OF_SRC: '/type-of-src',
+  TYPE_OF_WIDTH: '/type-of-width',
 } as const;
 
 interface Page {
@@ -20,5 +21,9 @@ export const PAGES: Page[] = [
   {
     href: PATH.TYPE_OF_SRC,
     title: 'src 유형',
+  },
+  {
+    href: PATH.TYPE_OF_WIDTH,
+    title: 'width 의존성',
   },
 ];

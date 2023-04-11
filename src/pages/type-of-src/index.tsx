@@ -9,7 +9,7 @@ import ImageCard from '@/components/ImageCard';
 
 import bg1 from '../images/bg-1.jpg';
 
-export default function ImgVsNextImage() {
+export default function TypeOfSrc() {
   const width = 400;
   const height = calcHeight(width);
 
