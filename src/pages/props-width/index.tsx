@@ -7,15 +7,15 @@ import { calcHeight } from '@/utils';
 import PageTitle from '@/components/PageTitle';
 import ImageCard from '@/components/ImageCard';
 
-export default function TypeOfWidth() {
+export default function PropsWidth() {
   const widthList = [400, 800, 1200];
 
   return (
     <>
       <Head>
-        <title>Type of width</title>
+        <title>props - width</title>
       </Head>
-      <PageTitle title="Type of width" />
+      <PageTitle title="props - width" />
 
       {widthList.map((width) => (
         <ImageCard

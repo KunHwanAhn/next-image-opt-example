@@ -1,8 +1,9 @@
 export const PATH = {
   HOME: '/',
   IMG_VS_NEXT_IMAGE: '/img-vs-next-image',
-  TYPE_OF_SRC: '/type-of-src',
-  TYPE_OF_WIDTH: '/type-of-width',
+  PROPS_SRC: '/props-src',
+  PROPS_WIDTH: '/props-width',
+  PROPS_QUALITY: '/props-quality',
 } as const;
 
 interface Page {
@@ -19,11 +20,15 @@ export const PAGES: Page[] = [
     title: 'img vs next/image',
   },
   {
-    href: PATH.TYPE_OF_SRC,
-    title: 'src 유형',
+    href: PATH.PROPS_SRC,
+    title: 'props - src',
   },
   {
-    href: PATH.TYPE_OF_WIDTH,
-    title: 'width 의존성',
+    href: PATH.PROPS_WIDTH,
+    title: 'props - width',
+  },
+  {
+    href: PATH.PROPS_QUALITY,
+    title: 'props - quality',
   },
 ];
