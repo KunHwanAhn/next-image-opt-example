@@ -8,7 +8,7 @@ import PageTitle from '@/components/PageTitle';
 import ImageCard from '@/components/ImageCard';
 
 export default function PropsWidth() {
-  const qualityList = [25, 50, 75];
+  const qualityList = [25, 50, 75, 100];
   const width = 400;
 
   return (
