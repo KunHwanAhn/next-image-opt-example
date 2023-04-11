@@ -1,0 +1,19 @@
+.image-card {
+  & + & {
+    margin-top: 1em;
+  }
+}
+
+.image-card-title {
+  display: inline-flex;
+  padding: .5em;
+  border-radius: var(--border-radius);
+  border: 1px solid lightgray;
+
+  margin-bottom: .25em;
+}
+
+.image-box {
+  display: inline-flex;
+  border: 1px solid black;
+}
