@@ -4,6 +4,7 @@ export const PATH = {
   PROPS_SRC: '/props-src',
   PROPS_WIDTH: '/props-width',
   PROPS_QUALITY: '/props-quality',
+  IMAGE_TYPES: '/image-types',
 } as const;
 
 interface Page {
@@ -30,5 +31,9 @@ export const PAGES: Page[] = [
   {
     href: PATH.PROPS_QUALITY,
     title: 'props - quality',
+  },
+  {
+    href: PATH.IMAGE_TYPES,
+    title: 'Image types',
   },
 ];
