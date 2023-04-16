@@ -16,7 +16,7 @@ export default function ImageTypes() {
       <Head>
         <title>Image types</title>
       </Head>
-      <PageTitle title="Image Types (jpg, webp, avif)" />
+      <PageTitle title="Image Types (svg, jpg, webp, avif)" />
 
       {images.map((src) => (
         <ImageCard
