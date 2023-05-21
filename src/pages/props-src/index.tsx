@@ -7,7 +7,7 @@ import { calcHeight } from '@/utils';
 import PageTitle from '@/components/PageTitle';
 import ImageCard from '@/components/ImageCard';
 
-import bg1 from '../images/bg-1.jpg';
+import bg2 from '../images/bg-2.jpg';
 
 export default function PropsSrc() {
   const width = 400;
@@ -29,7 +29,7 @@ export default function PropsSrc() {
       </ImageCard>
       <ImageCard title="상대 경로: import bg1 from '../images/bg-1.jpg'">
         <Image
-          src={bg1.src}
+          src={bg2.src}
           alt="sample 1"
           width={`${width}px`}
           height={`${height}px`}
